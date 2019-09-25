@@ -1,0 +1,198 @@
+.header {
+    text-align: center;
+}
+
+.header__logo {
+    margin-top: 50px;
+}
+
+.header__menu {
+    width: 873px;
+    margin:35px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu__text {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    color: #50946E;
+    text-decoration: none;
+}
+
+.header__menu__text--lang {
+    color: #D48C4C;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.page-content__company {
+    background: url("images/main-page-bg.svg");
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.page-content__company__info {
+    width: 922px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page-content__company__info:after {
+    content: '';
+    position: absolute;
+    height: 292px;
+    bottom: 12px;
+    left: -68px;
+    border-left: 2px solid #FFFFFF;
+}
+
+.page-content__company__info__title {
+    font-family: "Playfair Display";
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+
+.page-content__company__info__title strong {
+    font-style: italic;
+}
+
+.page-content__company__info__text {
+    width: 60%;
+    margin-top: 60px;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.page-content__width {
+    width: 990.45px;
+    margin: 0 auto;
+}
+
+.page-content__about {
+    margin-top: 114px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.page-content__title {
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: 700;
+    color: #50946E;
+}
+
+.page-content__text {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.page-content__about__left__text {
+    color: #50946E;
+    width: 95%;
+    margin-top: 40px;
+}
+
+.page-content__about__left__text > span {
+    font-weight: 600;
+}
+
+.page-content__services {
+    margin-top: 100px;
+}
+
+.page-content__services__option {
+    margin-top: 40px;
+    margin-bottom: 60.5px;
+}
+
+.page-content__services__option__title {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.page-content__services__option__title > img {
+    height: 96px;
+}
+
+.page-content__services__option__title__text {
+    margin-left: 53px;
+}
+
+.page-content__services__option__title__text--italic {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #E7DFC6;
+}
+
+.page-content__services__option__title__text--semibold--uppercase {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #50946E;
+    text-transform: uppercase;
+}
+
+.page-content__services__option__desc {
+    margin-top: 22px;
+    margin-left: 149px;
+}
+
+.page-content__services__option__desc__text {
+    margin-bottom: 21px;
+}
+
+.page-content__services__option__desc__link {
+    color: #50946E;
+}
+
+.page-content__services__option__desc__ex {
+    margin-top: 39px;
+    border-left: 2px solid #E7DFC6;
+    padding-left: 45.5px;
+}
+
+.page-content__services__option__desc__info__text {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.page-content__services__option__desc__info__text > span {
+    color: #50946E;
+    font-weight: 600;
+}
+
+.page-content__services__option__desc__info__text--italic {
+    font-style: italic;
+}
+
+.page-content__services__contact__text {
+    text-align: center;
+    color: #50946E;
+    font-weight: 600;
+}
+
+.page-content__services__contact {
+    position: relative;
+}
+
+.page-content__services__contact > img {
+    position: absolute;
+    right: 5%;
+}
